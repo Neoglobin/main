@@ -9,13 +9,9 @@
 пустой кортеж.
 '''
 
-def cort(a):
-    b = []
-    for i in a:
-        if i % 3 == 0 or i % 5 == 0:
-            b += [i]
-    b = b.index(15, 0)
-    result = tuple(b)
-    return result
+def get_middle_numbers(list1):
+    return tuple(list1[2:])
 
-print(cort([5,10,15,20,25]))
+list1 = []
+result = get_middle_numbers(list1)
+print(result)
