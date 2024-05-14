@@ -1,5 +1,4 @@
 import time
-
 def fib_decore(func):
     def wrapper(*args, **kwargs):
         start_time = time.time()
